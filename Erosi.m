@@ -1,4 +1,4 @@
-x = imread('no.jpg');
+x = imread('ss.jpg');
 x = im2bw(x);
 image_baru = imcomplement(x);
 [tinggi, lebar]=size(image_baru);
