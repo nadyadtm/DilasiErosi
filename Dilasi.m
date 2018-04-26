@@ -1,6 +1,6 @@
 x = imread('no.jpg');
 x = im2bw(x);
-image_baru = x;
+image_baru = imcomplement(x);
 [tinggi, lebar]=size(image_baru);
 image_fix = image_baru;
 penebal = [0 1 0
